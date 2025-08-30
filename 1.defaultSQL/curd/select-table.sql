@@ -5,7 +5,6 @@ SELECT * FROM movies;
 SELECT name, stars FROM movies;
 
 -- 정렬
-
 -- 별점 기준 정렬 - 내림차순
 SELECT * FROM movies 
 ORDER BY stars DESC;

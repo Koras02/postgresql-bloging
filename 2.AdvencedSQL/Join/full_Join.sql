@@ -1,0 +1,5 @@
+
+SELECT c.universe_id, c.name, d.course, d.grade, year 
+FROM computers c
+FULL JOIN degrees d
+ON c.universe_id = d.degree_id; 
